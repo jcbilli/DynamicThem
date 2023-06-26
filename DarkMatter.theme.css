@@ -4,6 +4,7 @@
  * @version 3.0.0
  * @description A cute sunny theme :D
  * @source https://github.com/DiscordStyles/DarkMatter/
+ * @extra i did steal some code from lilypichu because god knows i can't code lmao
 */
 
 @import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
@@ -13,9 +14,17 @@
     --avatar-size: 32px;
     --background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701372791.jpg');
     --home-image: url('https://icon-library.com/images/yellow-discord-icon/yellow-discord-icon-3.jpg');
+    // Backgrounds and general colours
     --background-solid: #777d29;
     --background-solid-dark: #6b6e41;
     --background-solid-darker: #4f5226;
     --accent: 255, 247, 23;
     --accent-alt: 179, 176, 34;
+    // Text
+    --text-normal: #474025;
+    --header-primary: #474025;
+    --interactive-normal: #fab1bd;
+    --channels-default: #474025;
+      /* Border-radius for the whole theme */
+    --border-radius: 20px;
 }
