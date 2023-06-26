@@ -11,11 +11,11 @@
 /* Variables */
 :root {
     --avatar-size: 32px;
-    --background-image: url('https://i.imgur.com/7SbtKvw.png');
-    --home-image: url('https://i.imgur.com/233d55Y.gif');
-    --background-solid: #161921;
-    --background-solid-dark: #101218;
-    --background-solid-darker: #0c0e12;
-    --accent: 37, 172, 232;
-    --accent-alt: 29, 101, 134;
+    --background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701372791.jpg');
+    --home-image: url('https://tenor.com/baUeM.gif');
+    --background-solid: #e4eb86;
+    --background-solid-dark: #6b6e41;
+    --background-solid-darker: #393b1b;
+    --accent: 255, 247, 23;
+    --accent-alt: 179, 176, 34;
 }
