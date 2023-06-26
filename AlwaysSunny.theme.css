@@ -25,11 +25,20 @@
     --backgroundsecondaryalt: #73561c;
     --backgroundtertiary: #574523;
     --backgroundfloating: #966b15;
+    --channels-default: #706c25;
+    --background-accent: #3b3806;
  // Text
     --text-normal: #474025;
     --header-primary: #474025;
     --interactive-normal: #fab1bd;
     --channels-default: #474025;
       /* Border-radius for the whole theme */
-    --border-radius: 20px;
+    --border-radius: 40px;
+    /* other shit */
+    --mentioncolor: #b040c2;
+      /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
 }
