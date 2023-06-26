@@ -1,8 +1,8 @@
 /**
- * @name Dark Matter
- * @author Tropical#8908, Hammock#3110
+ * @name Always Sunny
+ * @author Tropical#8908, Hammock#3110 they made the OG code but jcbilli made the sunny
  * @version 3.0.0
- * @description A cold, dark & frosty theme.
+ * @description A cute sunny theme :D
  * @source https://github.com/DiscordStyles/DarkMatter/
 */
 
@@ -12,10 +12,10 @@
 :root {
     --avatar-size: 32px;
     --background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701372791.jpg');
-    --home-image: url('https://tenor.com/baUeM.gif');
-    --background-solid: #e4eb86;
+    --home-image: url('https://icon-library.com/images/yellow-discord-icon/yellow-discord-icon-3.jpg');
+    --background-solid: #777d29;
     --background-solid-dark: #6b6e41;
-    --background-solid-darker: #393b1b;
+    --background-solid-darker: #4f5226;
     --accent: 255, 247, 23;
     --accent-alt: 179, 176, 34;
 }
