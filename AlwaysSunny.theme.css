@@ -28,9 +28,9 @@
     --channels-default: #706c25;
     --background-accent: #3b3806;
     --background-color: #26160696; \\ THIS ONE IS IMPORTANT IT CONTROLS THE STATUS BACKGROUND
-    --background-primary: var(background-color)
-    --background-secondary: var(background-color)
-    --background-modifier-hover: var(background-cover) \* its all copied from the background-color because it looks nice *\
+    --background-primary: #26160696;
+    --background-secondary: #26160696;
+    --background-modifier-hover: #26160696;
  // Text
     --text-normal: #474025;
     --header-primary: #474025;
