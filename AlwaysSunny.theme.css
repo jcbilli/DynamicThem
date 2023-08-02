@@ -14,7 +14,7 @@
     --avatar-size: 32px;
     --background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701372791.jpg');
     --home-image: url('https://icon-library.com/images/yellow-discord-icon/yellow-discord-icon-3.jpg');
- // Backgrounds and general colours
+ // Backgrounds n general colours
     --background-solid: #777d29;
     --background-solid-dark: #6b6e41;
     --background-solid-darker: #4f5226;
@@ -22,16 +22,33 @@
     --accent-alt: 179, 176, 34;
     --backgroundprimary: #8a6a2b;
     --backgroundsecondary: #73510f;
-    --backgroundsecondaryalt: #73561c;
+    --backgroundsecondaryalt: #73561c; \\ THIS IS ALSO THE VARIABLE FOR THE BACKGROUND
     --backgroundtertiary: #574523;
     --backgroundfloating: #966b15;
     --channels-default: #706c25;
     --background-accent: #3b3806;
+    --background-color: #26160696; \\ THIS ONE IS IMPORTANT IT CONTROLS THE STATUS BACKGROUND
+    --background-primary: var(background-color)
+    --background-secondary: var(background-color)
+    --background-modifier-hover: var(background-cover) \* its all copied from the background-color because it looks nice *\
  // Text
     --text-normal: #474025;
     --header-primary: #474025;
     --interactive-normal: #fab1bd;
     --channels-default: #474025;
+    --textbrightest: 			255,255,255;			/*	Text Color 1		 - 	default:	255,255,255		 - 	hex:	#ffffff		*/
+	--textbrighter: 			222,222,222;			/*	Text Color 2		 - 	default:	220,221,222		 - 	hex:	#dcddde		*/
+	--textbright: 				209,209,209;			/*	Text Color 3		 - 	default:	185,187,190		 - 	hex:	#b9bbbe		*/
+	--textdark: 				140,140,140;			/*	Text Color 4		 - 	default:	142,146,151		 - 	hex:	#8e9297		*/
+	--textdarker: 				115,115,115;			/*	Text Color 5		 - 	default:	114,118,125		 - 	hex:	#72767d		*/
+    --font-size: 1rem;
+    --line-height: 1.375rem;
+    --white-space: pre-wrap;
+    --white-space: break-spaces;
+    --word-wrap: break-word;
+    --color: #D5BB2BC9;
+	--textdarkest: 				80,80,80;
+    
       /* Border-radius for the whole theme */
     --border-radius: 40px;
     /* other shit */
@@ -41,4 +58,10 @@
   --scrollbar-auto-track: var(--background-secondary-alt);
   --scrollbar-thin-thumb: var(--background-tertiary);
   --scrollbar-thin-track: transparent;
+// Misc shit idek
+    --background-color: #36341b;
+    --channeltextarea-background: #3c332269;
+    --channels-default: #e6ac62;
+    --text-muted: #f7ff0882;
+    
 }
